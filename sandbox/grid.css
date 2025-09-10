@@ -27,6 +27,17 @@ body {
 
   /* задание ширины 3 раза по 1 фракции*/
   grid-template-columns: repeat(3, 1fr);
+
+  /* Gap */
+  /* column-gap: 10px;
+  row-gap: 10px; */
+  /* или */
+  gap: 10px;
+
+  /* Row Height */
+  /* grid-auto-rows: 200px; */
+  /* диапазон высоты строки: */
+  grid-auto-rows: minmax(200px, auto);
 }
 
 .item {
@@ -35,4 +46,6 @@ body {
   font-size: 20px;
   padding: 20px;
   border: skyblue 1px solid;
+  /* Gap */
+  /* margin: 10px; */
 }
