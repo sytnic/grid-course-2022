@@ -32,11 +32,23 @@ body {
     /* или */
   gap: 10px;
 
+  /* выравнивание элементов по высоте в зависимости от содержимого */
+  /* align-items: stretch; */
+  /* align-items: start; */
+  /* align-items: center; */
+  /* align-items: end; */
+
+  /* выравнивание элементов по ширине страницы в зависимости от содержимого */
+  /* justify-content: start; */
+  /* justify-content: end; */
+  /* justify-content: center; */
+  /* justify-content: space-around; */
+
   /* Row Height. Высота строк. 
         Используется не так часто */
   /* grid-auto-rows: 200px; */
     /* диапазон высоты строки: */
-  /* grid-auto-rows: minmax(200px, auto);*/
+  /* grid-auto-rows: minmax(200px, auto); */
     /* высота строк по очереди задаётся принудительно: */
   /* grid-template-rows: 200px 100px 200px;*/
     /* высота строк по фракциям, 
@@ -53,3 +65,15 @@ body {
   /* Gap */
   /* margin: 10px; */
 }
+
+/* размер и положение отдельного элемента */
+/*
+.item:nth-of-type(2) {
+  height: 100px;
+  width: 100px;
+
+  align-self: center;
+  justify-self: center;
+}
+*/
+
